@@ -1,0 +1,76 @@
+/* contact.css */
+
+/* Style for the Contact Section */
+#contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#contact h2 {
+    color: #333;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+/* Style for the Contact Form */
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contact-form label {
+    margin-bottom: 5px;
+    color: #666;
+    font-size: 1em;
+}
+
+#contact-form input,
+#contact-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#contact-form button {
+    padding: 10px 15px;
+    background: linear-gradient(to right, #842842, #ff768f);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#contact-form button:hover {
+    background: linear-gradient(to right, #c9e9ff, #27a5ae);
+}
+
+/* buttons.css */
+
+/* Style for the Back Button */
+.back-button {
+    padding: 15px 20px;
+    margin: 20px;
+    background: linear-gradient(to right, #842842, #ff768f);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.back-button:hover {
+    background: linear-gradient(to right, #c9e9ff, #27a5ae);
+}
+
