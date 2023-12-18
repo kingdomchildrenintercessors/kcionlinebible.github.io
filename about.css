@@ -24,27 +24,34 @@
   
 
   /* Meet Our Teachers Section Styles */
-  .team-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
+ /* Additional styles for the "About Us" section */
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px; /* Set a maximum width for the container */
+  margin: 0 auto; /* Center the container on larger screens */
+}
+
+.team-member {
+  background-color: rgb(243, 246, 255);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 15px;
+  padding: 20px;
+  width: 250px;
+  flex: 1 1 300px; /* Allow flexible sizing for larger screens */
+}
   
-  .team-member {
-    background-color: rgb(243, 246, 255);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    margin: 15px;
-    padding: 20px;
-    width: 250px;
-  }
-  
-  .team-member img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
-  }
+.team-member img {
+  max-width: 100%;
+  height: 400px; /* Set a fixed height for the images */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  border-radius: 50%;
+}
+
   
   .team-member h3 {
     color: #333;
@@ -58,21 +65,21 @@
   }
   /* Additional styles for the "About Us" section */
   
-  /* Responsive styles for smaller screens */
-  @media screen and (max-width: 768px) {
-    #about {
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  #about {
       padding: 20px;
-    }
-  
-    #about h2 {
-      font-size: 1.8em;
-    }
-  
-    #about p {
-      font-size: 1em;
-    }
+  }
 
-    .team-member {
-        width: calc(50% - 30px);
-      }
+  #about h2 {
+      font-size: 1.8em;
+  }
+
+  #about p {
+      font-size: 1em;
+  }
+
+  .team-member {
+      width: calc(50% - 30px); /* Adjusted width for smaller screens */
+  }
 }
