@@ -111,6 +111,8 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  max-width: 1200px; /* Set a maximum width for the container */
+  margin: 0 auto; /* Center the container on larger screens */
 }
 
 .team-member {
@@ -121,24 +123,29 @@ section {
   margin: 15px;
   padding: 20px;
   width: 250px;
+  flex: 1 1 300px; /* Allow flexible sizing for larger screens */
 }
-
+  
 .team-member img {
   max-width: 100%;
-  height: auto;
+  height: 400px; /* Set a fixed height for the images */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
   border-radius: 50%;
 }
 
-.team-member h3 {
-  color: #333;
-  font-size: 1.5em;
-  margin-top: 10px;
-}
-
-.team-member p {
-  color: #666;
-  font-size: 1.2em;
-}
+  
+  .team-member h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+  
+  .team-member p {
+    color: #666;
+    font-size: 1.2em;
+  }
+  /* Additional styles for the "About Us" section */
+  
 
 /* Additional styles for the "About Us" section */
 
@@ -275,19 +282,23 @@ h2 {
 }
 
 #mission-img {
-  width: 900%;
-  border-radius: 10px; /* Optional: Add border-radius */
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Optional: Add border-radius for a rounded look */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
 }
 
 .mission-text {
-  max-width: 100%; /* Adjust the width as needed */
-  padding-left: 2%;
+  max-width: 70%; /* Adjust the width of the text container */
+  margin: 0 auto; /* Center the text horizontally */
+  text-align: left; /* Adjust text alignment as needed */
 }
 
 .mission-details p {
-  font-size: 50px;
-  line-height: 1.6;
+  font-size: 1.5em; /* Adjust the font size for better readability on larger screens */
+  line-height: 1.8; /* Adjust the line height for better spacing */
 }
+
 
 #new-section {
   background-color: #f9f9f9;
@@ -378,7 +389,7 @@ footer {
   }
 
   .banner-text {
-    font-size: 2em;
+    font-size: 1em;
     color: aliceblue;
   }
 
