@@ -1,189 +1,218 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="home.css">
-  <link rel="stylesheet" href="onlinebibleschool.css"> <!-- Add a new stylesheet for responsive styles -->
-  <link rel="icon" href="G-removebg-preview.png" type="image/png">
-  <link rel="shortcut icon" href="G-removebg-preview.png" type="image/png">
-  <title>KCI - Online Bible School</title>
-</head>
-<body>
+/* Add or modify styles to match the navigation on home.html */
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  box-sizing: border-box;
+}
 
-    <header>
-        <div class="logo">
-          <img src="G-removebg-preview.png" alt="KCI" width="30%">
-        </div>
-        <nav>
-          <div class="header-links">
-            <a href="onlinebibleschool.html" class="button login-button">Get Our Book</a>
-          </div>
-          <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About us</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="onlinebibleschool.html">Online Bible School</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <div class="button-container">
-        <p class="pstyled">Click on any of the book cover to get the flipbook</p>
-        </div>
-        <div class="row">
-          <div class="column">
-            <a href="https://online.fliphtml5.com/enjib/mumq/" target="_blank"><img src="0ace038fbec56141c371dc1e55e1cb7.png" alt="Book1" style="width:100%"></a>
-          </div>
-          <div class="column">
-            <a href="https://online.fliphtml5.com/enjib/dnfa/"><img src="43d9bcc97079ac355d60cbd80dae808.png" alt="Book2" style="width:100%"></a>
-          </div>
-        </div>
-        <div class="button-container">
-          <p>In China? Get our items delivered to you for free! by clicking the button below, please send us a message at +2348066428710 or on our instagram page: kingdomchildrenintercessors or on our facebook page: Kingdom Children Intercessors</p>
-        </div>
-        <div class="button-container">
-          <a href="postalinfo.html" class="styled-button">
-            Get Our FlashCards Or books!
-          </a>
-        </div>
-        <div class="button-container">
-          <p class="pstyled">Flash Cards</p>
-        </div>
-        <div class="button-container">
-          <p class="pstyled">Week 1</p>
-        </div>
-        <div class="row">
-          <div class="column">
-          <img src="Professional Business Card.png" alt="FlashCard1" style="width:100%">
-          </div>
-          <div class="column">
-          <img src="Professional Business Card (1).png" alt="Flashcard1" style="width:100%">
-          </div>
-        </div>
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #c9e9ff;
+  color: white;
+}
 
-        <div class="button-container">
-          <p class="pstyled">Week 2</p>
-        </div>
-        <div class="row">
-          <div class="column">
-          <img src="Week2.png" alt="FlashCard2" style="width:100%">
-          </div>
-          <div class="column">
-          <img src="Week2 (1).png" alt="Flashcard2" style="width:100%">
-          </div>
-        </div>
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  height: 90px;
+}
 
-        <div class="button-container">
-          <p class="pstyled">Week 3</p>
-        </div>
-        <div class="row">
-          <div class="column">
-          <img src="Week3.png" alt="FlashCard3" style="width:100%">
-          </div>
-          <div class="column">
-          <img src="Week3 (1).png" alt="Flashcard3" style="width:100%">
-          </div>
-        </div>
+nav {
+  display: flex;
+  align-items: center;
+}
 
-        <div class="button-container">
-          <p class="pstyled">Week 4</p>
-        </div>
-        <div class="row">
-          <div class="column">
-          <img src="Modern Creative Real Estate Agent Business Card.png" alt="FlashCard4" style="width:100%">
-          </div>
-          <div class="column">
-          <img src="Modern Creative Real Estate Agent Business Card (1).png" alt="Flashcard4" style="width:100%">
-          </div>
-        </div>
+.header-links {
+  margin-right: auto; /* Push the login and signup links to the left */
+  display: flex;
+}
 
-        <div class="button-container">
-          <p class="pstyled">Week 5</p>
-        </div>
-        <div class="row">
-          <div class="column">
-          <img src="Week2.png" alt="FlashCard5" style="width:100%">
-          </div>
-          <div class="column">
-          <img src="Week2 (1).png" alt="Flashcard6" style="width:100%">
-          </div>
-        </div>
+.header-links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
 
-        <div class="button-container">
-          <p class="pstyled">Week 6</p>
-        </div>
-        <div class="row">
-          <div class="column">
-          <img src="Week 6.png" alt="FlashCard2" style="width:100%">
-          </div>
-          <div class="column">
-          <img src="Company Logo Best Company.png" alt="Flashcard2" style="width:100%">
-          </div>
-        </div>
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-left: auto; /* Push the navigation to the right */
+}
 
-        <div class="button-container">
-          <p class="pstyled">Week 7</p>
-        </div>
-        <div class="row">
-          <div class="column">
-          <img src="week 7.png" alt="FlashCard2" style="width:100%">
-          </div>
-          <div class="column">
-          <img src="week 7 (1).png" alt="Flashcard2" style="width:100%">
-          </div>
-        </div>
+nav ul li {
+  margin-right: 15px;
+}
 
-        <div class="button-container">
-          <p class="pstyled">Week 8</p>
-        </div>
-        <div class="row">
-          <div class="column">
-          <img src="Week 8.png" alt="FlashCard2" style="width:100%">
-          </div>
-          <div class="column">
-          <img src="Week 8 (1).png" alt="Flashcard2" style="width:100%">
-          </div>
-        </div>
+nav a {
+  text-decoration: none;
+  color: rgb(194, 66, 66);
+  font-weight: bolder;
+}
 
-        <div class="button-container">
-          <p class="pstyled">Week 8</p>
-        </div>
-        <div class="row">
-          <div class="column">
-          <img src="Week 9 (1).png" alt="FlashCard2" style="width:100%">
-          </div>
-          <div class="column">
-          <img src="Week 9 (2).png" alt="Flashcard2" style="width:100%">
-          </div>
-        </div>
+nav a:hover {
+  text-decoration: underline;
+  color: rgb(194, 66, 66);
+  font-weight: bolder;
+}
 
-        <div class="button-container">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSf7HNLFQmjS8jh4MO9BEuAht2Ds7pWegcW5LKFz_6eB2vMDLg/viewform" class="styled-button" target="_blank">
-            Register Your child for our online bible school!
-          </a>
-        </div>
-      </main>
-  <footer>
-    <div class="footer-content">
-      <div class="social-icons">
-        <a href="https://www.facebook.com/profile.php?id=100086091512670&mibextid=LQQJ4d" target="_blank">Facebook</a>
-        <a href="https://www.youtube.com/@kingdomchildrenintercessors/featured" target="_blank">Youtube</a>
-        <a href="https://instagram.com/kingdomchildrenintercessors?igshid=NzZlODBkYWE4Ng==" target="_blank">Instagram</a>
-      </div>
-      
-      </div>
-      </div>
-      <div class="contactdetails">
-        <p>kingdomchildrenintercessors@gmail.com</p>
-        <p>+2348066428710</p>
-      </div>
-      <p>&copy; 2023 kingdomchildrenintercessors</p>
-    </div>
-  </footer>
+main {
+  padding: 20px;
+}
 
+.column {
+  float: left;
+  width: 20%;
+  padding: 100px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+p{
+  font-weight: 1000;
+  text-align: center;
+}
+
+.pstyled{
+  display: inline-block;
+  padding: 10px 15px;
+  border-style: solid;
+  color: black;
+  text-decoration: none;
+  border-color: #89d0ff;
+  border-radius: 20px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+
+
+.button-container {
+  text-align: center;
+}
+
+.styled-button {
+  display: inline-block;
+  padding: 10px 15px;
+  background: linear-gradient(to right, #842842, #ff768f);
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+
+.styled-button:hover {
+  background: linear-gradient(to right, #c9e9ff, #27a5ae);
+}
+
+footer {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 1em;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column; /* Stack the content vertically */
+  align-items: center;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px; /* Add margin between social icons and contact details */
+}
+
+.social-icons a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.contactdetails {
+  background-color: #f4f4f4; /* Background color for the contact details div */
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 10px; /* Add margin between social icons and contact details */
+  text-align: center;
+}
+
+.contactdetails p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .header-links {
+    margin: 0; /* Remove margin for small screens */
+    flex-direction: column; /* Stack links vertically on small screens */
+    align-items: flex-start; /* Align buttons to the left */
+  }
+
+  .header-links a {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  nav ul {
+    justify-content: center;
+    margin-left: 0; /* Remove margin for small screens */
+  }
+
+  nav ul li {
+    margin-right: 10px;
+  }
+
+  .styled-button {
+    margin-right: 0; /* Remove margin between buttons on small screens */
+    margin-bottom: 10px; /* Add margin between buttons vertically on small screens */
+  }
+
+  .contactdetails {
+    padding: 15px;
+  }
+
+  .contactdetails p {
+    font-size: 1em;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+  .column {
+    float: left;
+    width: 45%;
+    padding: 5px;
+  }
   
 
-</body>
-</html>
+}
+  
+  
+  
+  
